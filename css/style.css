@@ -13,6 +13,10 @@ img {
     width: 100%;
 }
 
+.logo {
+    width: 120px;
+}
+
 .container {
     max-width: 50%;
     margin: 0 auto;
@@ -36,11 +40,10 @@ img {
     list-style: none;
 
     & a {
-
         font-weight: bold;
         text-decoration: none;
         padding: .75rem;
-        color: #3B3B3B
+        color: #3B3B3B;
     }
 
     & a:hover {
@@ -57,7 +60,6 @@ img {
 }
 
 .hero-item {
-
     width: 50%;
     margin: auto 0;
 
@@ -67,9 +69,11 @@ img {
     }
 
     & p {
-        font-size: 1.125rem;
+        font-size: 1.25rem;
         margin-top: 1.25rem;
+        line-height: 1.5;
         width: 90%;
+        color: #646464
     }
 
     & img {
@@ -80,7 +84,7 @@ img {
     }
 
     & span {
-        color: blue;
+        color: var(--color-primary)
     }
 }
 
@@ -96,10 +100,53 @@ img {
     }
 
     & a {
-        padding: 1rem 1.5rem;
-        background-color: burlywood;
-        border-radius: .5rem;
-        color: blue;
+        font-size: 1.125rem;
+        color: 1.25rem;
+        padding: 1rem 2.5rem;
+        border-radius: .25rem;
         text-decoration: none;
     }
+}
+
+.btn-comecar-agora {
+    background-color: var(--color-primary);
+    color: #FFFFFF
+}
+
+.btn-saiba-mais {
+    background-color: var(--bg-accent-light);
+    color: var(--color-primary)
+}
+
+.bg-gray {
+    background-color: var(--bg-page)
+}
+
+.info-section {
+    text-align: center;
+    padding: 3rem;
+
+    & span {
+        display: block;
+        color: var(--color-primary);
+        font-weight: 600;
+        margin-bottom: 1rem
+    }
+
+    & h2 {
+        font-size: 2.25rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.info-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.info-item {
+    background-color: #FFFFFF;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(216, 216, 216, 0.2)
 }

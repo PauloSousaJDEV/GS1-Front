@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/variable.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>ReQualifica+</title>
 </head>
 <body>
     <header class="header container">
         <div class="logo">
-            <span>ReQualifica+</span>
+            <img src="./assets/logo_requalifica.svg" alt="Logo da ReQualifica+">
         </div>
         <nav>
             <ul class="menu">
@@ -41,8 +42,8 @@
             </ul>
         </nav>
     </header>
-    <main class="main container">
-        <section class="hero-section">
+    <main class="main">
+        <section class="hero-section container">
             <div class="hero-item">
                 <h1>Evolua sua carreira com <span>Trilhas Inteligentes</span></h1>
                 <p>O ReQualifica+ é a plataforma SaaS completa para sua transição de carreira. Definimos perfis, traçamos objetivos e criamos a trilha de aprendizado perfeita para você.</p>
@@ -59,30 +60,38 @@
                 <img src="./assets/hero-img.png" alt="Pessoas sorrindo">
             </div>
         </section>
-
-        <section class="info-section">
-            <p>COMO FUNCIONA</p>
-            <h2>
-                Um sistema completo para o seu sucesso
-            </h2>
-            <div class="info-content">
-                <div class="info-item">
-                    <img src="" alt="">
-                    <h3>Análise de Perfil</h3>
-                    <p>Mapeamos suas hard skills e soft skills atuais para entender seu ponto de partida.</p>
+        
+        <article class="bg-gray">
+            <section class="info-section container">
+                <span>COMO FUNCIONA</span>
+                <h2>
+                    Um sistema completo para o seu sucesso
+                </h2>
+                <div class="info-content">
+                    <div class="info-item">
+                        <div class="info-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><polyline points="16 11 18 13 22 9"></polyline></svg>
+                        </div>
+                        <h3>Análise de Perfil</h3>
+                        <p>Mapeamos suas hard skills e soft skills atuais para entender seu ponto de partida.</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                        </div>
+                        <h3>Definição de Objetivos</h3>
+                        <p>Escolha para onde quer ir. Seja Fullstack, Data Science ou Gestão de Projetos.</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" x2="9" y1="3" y2="18"></line><line x1="15" x2="15" y1="6" y2="21"></line></svg>
+                        </div>
+                        <h3>Trilhas Personalizadas</h3>
+                        <p>O algoritmo gera cursos e etapas sequenciais para você atingir sua meta.</p>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <img src="" alt="">
-                    <h3>Definição de Objetivos</h3>
-                    <p>Escolha para onde quer ir. Seja Fullstack, Data Science ou Gestão de Projetos.</p>
-                </div>
-                <div class="info-item">
-                    <img src="" alt="">
-                    <h3>Trilhas Personalizadas</h3>
-                    <p>O algoritmo gera cursos e etapas sequenciais para você atingir sua meta.</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </article>
     </main>
     <footer class="container">
         <div>            

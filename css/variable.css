@@ -1,0 +1,21 @@
+:root {
+    --color-primary: #2563eb;
+    --color-primary-dark: #1d4ed8;
+    --color-secondary: #9333ea;
+
+    --bg-page: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-footer: #0f172a;
+    --bg-alt: #f9fafb;
+    --bg-accent-light: #dbeafe;
+
+    --text-heading: #111827;
+    --text-body: #1e293b;
+    --text-muted: #6b7280;
+    --text-on-dark: #94a3b8;
+
+    --status-success-bg: #dcfce7;
+    --status-success-text: #166534;
+
+    --interface-border: lightgray
+}
