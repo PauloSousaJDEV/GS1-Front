@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-    max-width: 90%;
+    max-width: 50%;
     margin: 0 auto;
 }
 
@@ -37,5 +37,41 @@ html {
         text-decoration: none;
         padding: .75rem;
         color: #3B3B3B
+    }
+
+    & a:hover {
+        color: black
+    }
+}
+
+.hero-section {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.hero-item {
+    flex: 1;
+
+    & h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    & p {
+        font-size: 1.125rem;
+    }
+
+}
+
+.hero-button {        
+    margin: 2rem 0;
+
+    & a {
+        padding: 1rem 1.5rem;
+        background-color: burlywood;
+        border-radius: .5rem;
+        color: blue;
+        text-decoration: none;
+
     }
 }
