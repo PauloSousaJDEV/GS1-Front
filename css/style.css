@@ -265,8 +265,8 @@ a {
 }
 
 .integrantes-section {
+    padding-bottom: 3rem;
     margin-top: 3rem;
-
 }
 
 .integrantes-lista {
@@ -310,7 +310,6 @@ a {
 .integ-texto-desc {
     color: var(--color-primary)
 }
-
 
 details {
   border: 1px solid #ddd;
@@ -467,6 +466,10 @@ details p {
     }
 }
 
+.about-section {
+    margin-bottom: 4rem;
+}
+
 .about-content {
     display: flex;
     gap: 2rem;
@@ -475,7 +478,7 @@ details p {
 .about-item {
     background-color: #FFFFFF;
     padding: 2rem 1.5rem;
-    border-radius: 4px;
+    border-radius: 8px;
     box-shadow: 0 4px 4px 0 rgba(216, 216, 216, 0.2);
 
     & h3 {
@@ -487,17 +490,70 @@ details p {
         color: var(--text-lightgray);
         line-height: 1.5;    
     }
+
+    & span {
+        display: block;
+        font-weight: bold;
+        margin-bottom: .5rem;
+    }
 }
 
 .about-svg {
+    margin-bottom: 1rem;
+}
+
+.lista-section {
+    margin-bottom: 3rem;
+    & span {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        font-size: 1.25rem;
+    }
+}
+
+.lista-objetivos {
+    & li {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.onu-info {
+    margin-bottom: 3rem;
+}
+
+.onu-intro {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.onu-cards {
     display: flex;
     justify-content: center;
-    color: white;
-    border-radius: 4px;
-    width: 3rem;
-    margin: 0 auto 1rem;
-    padding: .5rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+.onu-items {
+    flex: 1;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 2rem;
+    border-radius: 8px;
+    color: #fff;
     background-color: var(--color-primary);
+
+    & span {
+        display: block;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
 }
 
 .footer {
