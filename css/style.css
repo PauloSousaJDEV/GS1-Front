@@ -10,8 +10,25 @@ html {
     color: var(--text-body)
 }
 
+body, html {
+    height: 100%;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+}
+
 img {
     width: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  min-height: calc(100vh - 133px); /* 80px = altura do footer */
 }
 
 .logo {
@@ -146,18 +163,6 @@ img {
 .info-section {
     text-align: center;
     padding: 3rem 2rem;
-
-    & span {
-        display: block;
-        color: var(--color-primary);
-        font-weight: 600;
-        margin-bottom: 1rem
-    }
-
-    & h2 {
-        font-size: 2.25rem;
-        margin-bottom: 3rem;
-    }
 }
 
 .info-content {
@@ -193,9 +198,16 @@ img {
     background-color: var(--color-primary);
 }
 
+.subtitle-span {
+    display: block;
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: 1rem
+}
+
 .footer {
     background-color: var(--bg-footer);
-    padding: 3rem 0;
+    padding: 2rem 0;
     color: var(--text-on-dark)
 }
 
