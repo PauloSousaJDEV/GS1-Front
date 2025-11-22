@@ -219,11 +219,17 @@ a {
     background-color: var(--color-primary);
 }
 
+.intro-title {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+
 .subtitle-span {
     display: block;
     color: var(--color-primary);
     font-weight: 600;
-    margin-bottom: 1rem
+    margin-bottom: .5rem
 }
 
 .split-section {
@@ -256,12 +262,6 @@ a {
     list-style: none;
     gap: 1rem;
     margin-bottom: 1rem 0;
-}
-
-.intro-title {
-    text-align: center;
-    padding-top: 3rem;
-    margin-bottom: 3rem;
 }
 
 .integrantes-section {
@@ -502,8 +502,24 @@ details p {
     margin-bottom: 1rem;
 }
 
+.about-item:nth-child(1) .about-svg svg {
+    color: #4F46E5;
+}
+
+.about-item:nth-child(2) .about-svg svg {
+    color: #16A34A;
+}
+
+.about-item:nth-child(3) .about-svg svg {
+    color: #DC2626;
+}
+
+.about-item:nth-child(4) .about-svg svg {
+    color: #0EA5E9;
+}
+
 .lista-section {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     & span {
         display: block;
         font-weight: bold;
@@ -519,10 +535,14 @@ details p {
         gap: 1rem;
         margin-bottom: 1rem;
     }
+
+    & svg {
+        color: var(--color-primary)
+    }
 }
 
 .onu-info {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .onu-intro {
