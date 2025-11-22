@@ -18,7 +18,7 @@ img {
 }
 
 .container {
-    max-width: 50%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -124,7 +124,7 @@ img {
 
 .info-section {
     text-align: center;
-    padding: 3rem;
+    padding: 3rem 0;
 
     & span {
         display: block;
@@ -152,7 +152,7 @@ img {
 
     & h3 {
         font-weight: 500;
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
 
     & p {
