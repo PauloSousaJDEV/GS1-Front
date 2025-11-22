@@ -19,6 +19,7 @@ img {
 
 .container {
     max-width: 1200px;
+    padding: 0 2rem; 
     margin: 0 auto;
 }
 
@@ -124,7 +125,7 @@ img {
 
 .info-section {
     text-align: center;
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 
     & span {
         display: block;
@@ -170,4 +171,41 @@ img {
     margin: 0 auto 1rem;
     padding: .5rem;
     background-color: var(--color-primary);
+}
+
+.footer {
+    background-color: var(--bg-footer);
+    padding: 3rem 0;
+    color: var(--text-on-dark)
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info {
+    & div {
+        margin-bottom: .5rem;
+    }
+
+    & span {
+        font-size: 0.875rem
+    }
+}
+
+.footer-menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+    & a {
+        text-decoration: none;        
+        color: var(--text-on-dark)
+    }
+
+    & a:hover {   
+        color: #c1cfe2;
+    }
 }
