@@ -19,6 +19,13 @@ h2 {
     margin-bottom: 3rem;
 }
 
+h3 {
+    font-size: 1.25rem;
+    color: var(--text-lightgray);
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
 img {
     width: 100%;
 }
@@ -240,6 +247,46 @@ main {
 .intro-title {
     text-align: center;
     padding-top: 3rem;
+}
+
+.integrantes-section {
+    margin-top: 3rem;
+
+}
+
+.integrantes-lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    text-align: center;
+}
+
+.integrantes-item {
+    list-style: none;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(216, 216, 216, 0.2);
+}
+
+.integrantes-descricao {
+    padding: 1rem;
+}
+
+.nome-integrante {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.turma-integrante {
+    display: block;
+    margin-bottom: .5rem;
+    color: var(--text-lightgray)
+}
+
+.integ-texto-desc {
+    color: var(--color-primary)
 }
 
 .footer {
