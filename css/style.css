@@ -7,6 +7,7 @@
 html {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-body)
 }
 
 img {
@@ -14,7 +15,7 @@ img {
 }
 
 .logo {
-    width: 120px;
+    width: 140px;    
 }
 
 .container {
@@ -28,7 +29,20 @@ img {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    border-bottom: 1px solid lightgray
+}
+
+#navigation {
+    position: relative;
+}
+
+#navigation::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    transform: translateX(-50%);
+    width: 100vw;
+    border-bottom: 1px solid #ddd;
 }
 
 .menu {
@@ -41,15 +55,20 @@ img {
     list-style: none;
 
     & a {
-        font-weight: bold;
+        font-weight: 500;
         text-decoration: none;
         padding: .75rem;
-        color: #3B3B3B;
+        color: var(--text-lightgray);
     }
 
     & a:hover {
-        color: black
+        color: var(--text-heading)
     }
+}
+
+.item-selected a{
+    font-weight: bold;
+    color: var(--color-primary)
 }
 
 .hero-section {
@@ -98,6 +117,7 @@ img {
 
     & div {
         display: inline-block;
+        margin-right: 1rem;
     }
 
     & a {
@@ -147,7 +167,7 @@ img {
 
 .info-item {
     background-color: #FFFFFF;
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(216, 216, 216, 0.2);
 
