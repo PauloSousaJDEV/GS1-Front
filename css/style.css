@@ -205,6 +205,43 @@ main {
     margin-bottom: 1rem
 }
 
+.split-section {
+    display: flex;
+    gap: 3rem;
+}
+
+.split-section-item {
+    flex: 1;
+
+    & p {
+        font-size: 1.125rem;
+        color: var(--text-lightgray);
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    & svg {
+        color: var(--text-lightgray)
+    }
+
+    & img {
+        border-radius: 4px;
+        box-shadow: 0 4px 4px 0 rgba(216, 216, 216, 0.2);
+    }
+}
+
+.split-section-list li {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-bottom: 1rem 0;
+}
+
+.intro-title {
+    text-align: center;
+    padding-top: 3rem;
+}
+
 .footer {
     background-color: var(--bg-footer);
     padding: 2rem 0;
