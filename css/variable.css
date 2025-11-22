@@ -18,5 +18,6 @@
     --status-success-bg: #dcfce7;
     --status-success-text: #166534;
 
-    --interface-border: #ddd
+    --interface-border: #ddd;
+    --interface-light-border: #bad8ff;
 }
