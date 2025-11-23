@@ -38,6 +38,7 @@ body {
 
 main {
   min-height: calc(100vh - 133px);
+  padding-bottom: 3rem;
 }
 
 ul {
@@ -235,6 +236,7 @@ header::after {
 .split-section {
     display: flex;
     gap: 3rem;
+    margin-bottom: 3rem;
 }
 
 .split-section-item {
@@ -262,6 +264,17 @@ header::after {
     list-style: none;
     gap: 1rem;
     margin-bottom: 1rem 0;
+}
+
+.split-section-title {
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.split-section-desc {
+    max-width: 400px;
 }
 
 .integrantes-section {
