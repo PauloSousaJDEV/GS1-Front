@@ -570,7 +570,7 @@ details p {
 }
 
 .onu-info {
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
 }
 
 .onu-intro {
@@ -734,4 +734,119 @@ details p {
     & a:hover {   
         color: #c1cfe2;
     }
+}
+
+@media (max-width: 480px) {
+
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-item {
+    width: 100%;
+  }
+
+  .hero-item h1 {
+    font-size: 2rem;
+  }
+
+  .hero-item p {
+    width: 100%;
+  }
+
+  .info-content,
+  .split-section,
+  .three-section,
+  .about-content,
+  .integrantes-lista,
+  .contact-article,
+  .onu-cards {
+    flex-direction: column;
+  }
+
+  .split-section-item,
+  .three-section-item,
+  .info-item,
+  .about-item,
+  .integrantes-item,
+  .contact-item {
+    width: 100%;
+  }
+
+  .integrantes-lista {
+    gap: 1rem;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .timeline-line {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .hero-item h1 {
+    font-size: 3rem;
+  }
+
+  .info-content,
+  .split-section,
+  .about-content,
+  .three-section {
+    flex-direction: row;
+  }
+
+  .integrantes-lista {
+    flex-wrap: wrap;
+  }
+
+  .integrantes-item {
+    width: 48%;
+  }
+
+  .contact-article {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-section {
+    height: 550px;
+  }
+
+  .hero-item h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1300px;
+  }
+
+  .hero-section {
+    height: 650px;
+  }
+
+  .hero-item h1 {
+    font-size: 4rem;
+  }
 }
