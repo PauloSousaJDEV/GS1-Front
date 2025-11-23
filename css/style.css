@@ -585,6 +585,7 @@ details p {
 .timeline-item {
     display: flex;
     align-items: center;
+    margin-bottom: 2rem;
     gap: 2rem;
 }
 
@@ -622,6 +623,8 @@ details p {
     background: var(--color-primary);
     border-radius: 200px;
     color: white;
+    border: 4px solid white;
+    box-shadow: 0 4px 4px 0 rgba(216, 216, 216, 0.2);
     
     & svg {
         display: block;
