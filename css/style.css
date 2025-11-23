@@ -48,6 +48,20 @@ a {
     text-decoration: none;
 }
 
+header {
+    position: relative;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 1px;
+    background-color: #ddd;
+}
+
 .logo {
     width: 140px;    
 }
@@ -63,20 +77,6 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-}
-
-#navigation {
-    position: relative;
-}
-
-#navigation::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -1px;
-    transform: translateX(-50%);
-    width: 100vw;
-    border-bottom: 1px solid #ddd;
 }
 
 .menu {
