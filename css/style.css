@@ -111,7 +111,7 @@ header::after {
     align-items: center;
     margin-bottom: 2rem 0;
     gap: 2rem;
-    height: 700px;
+    height: 600px;
 }
 
 .hero-item {
@@ -157,11 +157,18 @@ header::after {
 
     & a {
         font-size: 1.125rem;
-        color: 1.25rem;
         padding: 1rem 2.5rem;
         border-radius: .25rem;
         text-decoration: none;
     }
+}
+
+.btn-comecar-agora:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.btn-saiba-mais:hover {
+    background-color: rgb(177, 188, 236);
 }
 
 .btn-comecar-agora {
@@ -181,9 +188,13 @@ header::after {
 .info-section {
     text-align: center;
     padding: 3rem 2rem;
-
+    margin-bottom: 3rem;
     & h2 {
         margin-bottom: 3rem;
+    }
+
+    & h3 {
+        color: var(--text-heading)
     }
 }
 
@@ -236,11 +247,13 @@ header::after {
 .split-section {
     display: flex;
     gap: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .split-section-item {
     flex: 1;
+    max-height: 300px;
+
 
     & p {
         font-size: 1.125rem;
@@ -254,6 +267,7 @@ header::after {
     }
 
     & img {
+        height: 100%;
         border-radius: 4px;
         box-shadow: 0 4px 4px 0 rgba(216, 216, 216, 0.2);
     }
@@ -648,6 +662,22 @@ details p {
 .timeline-blank {
     content: "";
     flex-basis: 300px;
+}
+
+.btn-call-to-action {
+    display: block;
+    font-weight: bold;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    margin-top: 3rem;
+}
+
+.btn-call-to-action:hover {
+    background-color: var(--color-primary-dark);
 }
 
 .footer {
