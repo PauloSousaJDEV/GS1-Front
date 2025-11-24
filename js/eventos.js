@@ -1,5 +1,5 @@
 const animarElementos = document.querySelectorAll('.info-item, .split-section-item, .timeline-item, .integrantes-item, .about-item');
-    
+
     const style = document.createElement('style');
     style.textContent = `
         .animate-on-scroll {
@@ -42,4 +42,42 @@ const animarElementos = document.querySelectorAll('.info-item, .split-section-it
     
     animarElementos.forEach(el => {
         observador.observe(el);
+    });
+
+    const detailsElements = document.querySelectorAll('details');
+    
+    detailsElements.forEach(details => {
+        details.addEventListener('toggle', (e) => {
+            if (details.open) {
+                detailsElements.forEach(other => {
+                    if (other !== details && other.open) {
+                        other.open = false;
+                    }
+                });
+                
+                setTimeout(() => {
+                    details.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'nearest'
+                    });
+                }, 100);
+                
+                details.style.backgroundColor = '#dbeafe';
+                setTimeout(() => {
+                    details.style.backgroundColor = '#fff';
+                }, 300);
+            }
+        });
+        
+        details.addEventListener('mouseenter', () => {
+            if (!details.open) {
+                details.style.borderColor = '#2563eb';
+            }
+        });
+        
+        details.addEventListener('mouseleave', () => {
+            if (!details.open) {
+                details.style.borderColor = '#ddd';
+            }
+        });
     });
