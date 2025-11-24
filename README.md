@@ -32,14 +32,14 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 **Enzo Yukio Oyadomari**
 * RM: 561032
 * Turma: 1TDSPR
-* LinkedIn: https://www.linkedin.com/in/paulo-sousa-b97235246/
-* GitHub: https://github.com/PauloSousaJDEV
+* LinkedIn: https://www.linkedin.com/in/enzo-oyadomari-0307312b1/
+* GitHub: https://github.com/enzoyukio2005-netizen
 
 **Miguel Kenzo Yonamine Vaz**
 * RM: 567852
 * Turma: 1TDSPR
-* LinkedIn: https://www.linkedin.com/in/paulo-sousa-b97235246/
-* GitHub: https://github.com/PauloSousaJDEV
+* LinkedIn: https://www.linkedin.com/in/miguel-kenzo-yonamine-vaz-2361842b2/
+* GitHub: https://github.com/MiguelKyv
 
 ---
 
